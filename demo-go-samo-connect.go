@@ -19,6 +19,7 @@ func SamoRequst() (string, error) {
     if err != nil {
         log.Fatal(err)
         return "error", err
+        
     }
     
 	// pls modify the target request SOAP
